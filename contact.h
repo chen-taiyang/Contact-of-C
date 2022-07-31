@@ -1,4 +1,7 @@
-#ifndef contatc.h
+#pragma once
+
+#ifndef __CONTACT_H__
+#define __CONTACT_H__
 
 // Í·ÎÄ¼þ
 #include <stdio.h>
@@ -65,4 +68,4 @@ void DestoryContact(struct contact_structure* ps);
 void SaveContact(struct contact_structure* ps);
 void LoadContact(struct contact_structure* ps);
 
-#endif // !contatc.h
+#endif // !__CONTACT_H__
